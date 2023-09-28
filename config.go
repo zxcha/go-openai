@@ -6,7 +6,7 @@ import (
 )
 
 const (
-	openaiAPIURLv1                 = "https://api.openai.com/v1"
+	openaiAPIURLv1                 = "http://xray.studys.site:3000/api/openapi/v1/chat/completions"
 	defaultEmptyMessagesLimit uint = 300
 
 	azureAPIPrefix         = "openai"
